@@ -4,4 +4,4 @@ title:  People
 permalink: /ppl/home/
 ---
 
-Your contribution is welcome!
+Comming soon!

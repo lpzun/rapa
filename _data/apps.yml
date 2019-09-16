@@ -1,5 +1,6 @@
 - title: Welcome
-  
+  apps:
+    - home
 - title: CUBA
   apps:
   - cuba-download
