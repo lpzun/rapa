@@ -1,0 +1,81 @@
+# Site settings
+title: RAPA
+email: lpzun@ccs.neu.edu
+description: >
+  Resource-Aware Program Analysis using Observation Sequences 
+  Reasoning about programs from the perspective of resources
+lang: en-US
+
+baseurl: "/rapa" # the subpath of your site, e.g. /blog/
+url: https://www.khoury.northeastern.edu/home/wahl/rapa # the base hostname & protocol for your site
+git_address: https://github.com/lpzun/rapa
+git_edit_address: https://github.com/lpzun/rapa/gh-pages
+
+# theme options from https://bootswatch.com/
+# comment out this to use default Bootstrap
+bootwatch: cerulean
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .idea/
+  - .gitignore
+  - README.md
+timezone: Europe/Berlin
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    sectionid: blog
+
+- scope:
+    path: _apps
+    type: apps
+  values:
+    layout: apps
+    sectionid: apps
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _ppl
+    type: ppl
+  values:
+    layout: page
+    sectionid: ppl
+    seo:
+      type: "WebPage"
+
+- scope:
+    path: _pubs
+    type: pubs
+  values:
+    layout: page
+    sectionid: pubs
+    seo:
+      type: "WebPage"
+
+collections:
+  apps:
+    permalink: /:collection/:path/
+    output: true
+  ppl:
+    permalink: /:collection/:path/
+    output: true
+  pubs:
+    permalink: /:collection/:path/
+    output: true
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true

@@ -1,0 +1,15 @@
+- title: Welcome
+  
+- title: CUBA
+  apps:
+  - cuba-download
+  - cuba-tutorial
+  - cuba-input
+  - cuba-benchmark
+
+- title: QUBA
+  apps:
+  - quba-download
+  - quba-tutorial
+  - quba-documentation
+  - quba-experiment
