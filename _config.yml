@@ -7,7 +7,7 @@ description: >
 lang: en-US
 
 baseurl: "/rapa" # the subpath of your site, e.g. /blog/
-url: https://www.khoury.northeastern.edu/home/wahl/rapa # the base hostname & protocol for your site
+url: https://github.com/lpzun # the base hostname & protocol for your site
 git_address: https://github.com/lpzun/rapa
 git_edit_address: https://github.com/lpzun/rapa/gh-pages
 
