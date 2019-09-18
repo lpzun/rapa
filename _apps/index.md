@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /apps/home/
+permalink: /apps/
 redirect_from: /apps/index.html
 ---
 

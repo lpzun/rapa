@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Publications
-permalink: /pubs/home/
+permalink: /pubs/
 ---
 <div>
       <ol type="1">
