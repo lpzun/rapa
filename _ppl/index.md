@@ -17,8 +17,12 @@ table
 </style>
 </head>
 <body>
-	<h3>Main researchers</h3>
 	<table style="width:100%">
+ 	<tr>
+ 		<td>
+ 		<h4>Faculty</h4>
+ 		</td>
+ 	</tr>
 	<tr>
 	<td align="center">
  	<img src="img/thomas_2.jpg" width="180" alt="Thomas" class="circle">
@@ -28,10 +32,14 @@ table
  	</tr>
  	<tr>
  		<td align="center">
- 			<a href="https://www.khoury.northeastern.edu/home/wahl/">Prof. Thomas Wahl</a><br>
- 			Associate Professor<br>
+ 			<a href="https://www.khoury.northeastern.edu/home/wahl/">Thomas Wahl</a>
  		</td>
  		<td align="center">
+ 		</td>
+ 	</tr>
+ 	<tr>
+ 		<td>
+ 		<h4>PhD Students</h4>
  		</td>
  	</tr>
 	<tr>
@@ -43,11 +51,13 @@ table
  	</tr>
  	<tr>
  		<td align="center">
- 			<a href="https://www.khoury.northeastern.edu/home/wahl/">Peizun Liu</a><br>
- 			PhD Student
+ 			<a href="https://www.khoury.northeastern.edu/home/wahl/">Peizun Liu</a>
  		</td>
  		<td align="center">
  		</td>
+ 	</tr>
+ 	<tr>
+ 		<td><h4>Undergraduate Students</h4></td>
  	</tr>
 	<tr>
 	<td align="center">
@@ -59,17 +69,32 @@ table
  	</tr>
  	<tr>
  		<td align="center">
- 			<a href="">Andrew Johnson</a><br>
- 			Undergradute Student
+ 			<a href="">Andrew Johnson</a>
  		</td>
  		<td align="center">
- 			<a href="">Andrew Dai</a><br>
- 			Undergradute Student
+ 			<a href="">Andrew Dai</a>
  		</td>
  	</tr>
 </table>
 
- 	<h3>Collaborators</h3>
+<h1>External Collaborators</h1>
+ 	<table style="width:100%">
+ 	<tr>
+ 		<td>
+ 		</td>
+ 	</tr>
+ 	<tr>
+ 		<td>
+ 		<ul>
+ 			<li><a href="http://pages.cs.wisc.edu/~reps/">Thom Reps</a>, University of Wisconsin-Madison</li>
+ 			<li><a href="https://www.microsoft.com/en-us/research/people/akashl/">Akash Lal</a>, Microsoft Research, India</li>
+ 		</ul>
+ 		</td>
+ 	</tr>
+</table>
+<!--
+<br>
+ 	<h4>External Collaborator</h4><br>
 
 	<table style="width:100%">
 	<tr>
@@ -93,5 +118,6 @@ table
  		</td>
  	</tr>
  </table>
+-->
 </body>
 </html>
