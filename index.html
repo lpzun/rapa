@@ -3,28 +3,28 @@ layout: default
 ---
 
 <div class="header-container jumbotron">
-    <div class="container">
-        <h2>Resource-Aware Program Analysis using Observation Sequences</h2>
-        <p>Reasoning about programs from the perspective of resources</p>
-        <p><a class="btn btn-primary btn-lg" href="{{ "/apps/" | prepend: site.baseurl }}" role="button">Learn more</a></p>
-    </div>
+  <div class="container">
+    <h2>Resource-Aware Program Analysis using Observation Sequences</h2>
+    <h4><i>Reasoning about programs from the perspective of resources</i></h4>
+    <p><a class="btn btn-primary btn-lg" href="{{ "/apps/" | prepend: site.baseurl }}" role="button">Learn more</a></p>
+  </div>
 </div>
 
 <div class="container">
-    <div class="row">
-            <h2 class="header-light regular-pad">About RAPA</h2>
-              <p class="lead"><b>Short version:</b> Verification techniques try to analyze
-              software (or hardware) for bugs: behaviors that are
-              unexpected, unwanted, and can cause the software to end
-              up in an unworkable state, crash, or simply compute
-              wrong results. This project develops a verification
-              technique that tries to exploit the fact that most
-              software systems are designed over a variable number of
-              resources. How do changes (especially incremental
-              changes) of the resource parameter affect the behavior
-              of the software?</p> 
-        <!--div class="col-md-6 text-center">
-            <img src="img/jekyll-dark.png" alt="" class="img-responsive">
+  <div class="row">
+    <h2 class="header-light regular-pad">About RAPA</h2>
+    <p class="lead"><b>Short version:</b> Verification techniques analyze
+      software (or hardware) for bugs: behaviors that are
+      unexpected, unwanted, and can cause the software to end
+      up in an unworkable state, crash, or simply compute
+      wrong results. This project develops a verification
+      technique that exploits the fact that most
+      software systems are designed over a variable number of
+      resources. How do changes (especially incremental
+      changes) of the resource parameter affect the behavior
+      of the software?</p> 
+    <!--div class="col-md-6 text-center">
+    <img src="img/jekyll-dark.png" alt="" class="img-responsive">
         </div-->
     </div>
     <hr>
@@ -47,20 +47,54 @@ layout: default
             <p></p>
         </div>
       -->
-           <p>
-            <b>More details:</b> 
-            Many systems are naturally designed (consciously or not) over a variable number of certain resources, which can mean physical or logical entities. Examples of such resources include:
-    <ul>
-    <li>the number of physical components of a certain functional type,</li>
-    <li>the number of clients that simultaneously request a service from a server,</li>
-    <li>the capacity of the communication channel between components,</li>
-    <li>the number of context switches permitted among concurrent threads,</li>
-    <li>the recursion nesting depth (= stack size) permitted in a piece of software.</li>
-    </ul>
-    We can expect that the behavior of the instances of the parametric design family (= the concrete designs for each parameter choice) depend on the parameter in a smooth, "continuous" way. This enables analyses of the function that maps the number of resource instances (= the parameter) to a concrete design (this function goes from the natural numbers to the design space).
-    More concretely, suppose k is an integral parameter of the design. With the target property P to be verified in mind, we define a function O mapping the parameter to observations about the design of size k, such that knowledge of O(k) enables a decision on whether P holds of the instance of size k. For example, the "observation" could simply be the set of states reachable in the system of size k.
-    In general, we require of function O that it be monotone: more resources means more system behaviors (observations). This is almost always the case provided the value of k is not accessible in the program defining a system instance's behavior. (If it is, the dependence on k can be arbitrary, making analysis against unbounded k in general impossible.)
-    We now analyze the system design for increasing values of k. Due to monotonicity of O, consecutive observation sets O(k) are in some sort of ≤ relationship. This begs the question whether the function O converges at some parameter point k0, i.e. whether it stops increasing after reaching k0. If so, the truth value of property P has stabilized, i.e. unless we have detected a violation of P up to this point, we have proved the property for all parameter instances.
+      <p>
+        <b>More details:</b> 
+        Many systems are naturally designed (consciously or not) over
+        a variable number of certain <b>resources</b>, which can mean
+        physical or logical entities. Examples of such resources
+        include: 
+	<ul>
+	  <li>the number of physical components of a certain functional type,</li>
+	  <li>the number of clients that simultaneously request a service from a server,</li>
+	  <li>the capacity of the communication channel between components,</li>
+	  <li>the number of context switches permitted among concurrent threads,</li>
+	  <li>the recursion nesting depth (= stack size) permitted in a piece of software.</li>
+	</ul>
+    We can expect that the behavior of the instances of the parametric
+    design family (= the concrete designs for each parameter choice)
+    depend on the parameter in a smooth, "continuous" way. This
+    enables analyses of the function that maps the number of resource
+    instances (= the parameter) to a concrete design (this function
+    goes from the natural numbers to the design space).
+      </p>
+      
+      <p>
+    More concretely, suppose <code>k</code> is an integral parameter
+    of the design. With the target property <code>P</code> to be
+    verified in mind, we define a function <code>O</code> mapping the
+    parameter to observations about the design of size <code>k</code>, such that
+    knowledge of <code>O(k)</code> enables a decision on whether <code>P</code> holds of the
+    instance of size <code>k</code>. For example, the "observation" could simply be
+	the set of states reachable in the system of size <code>k</code>.
+	</p>
+    <p>
+    In general, we require of function <code>O</code> that it be <b>monotone</b>: more
+    resources means more system behaviors (observations). This is
+    almost always the case provided the value of <code>k</code> is not accessible
+    in the program defining a system instance's behavior. (If it is,
+    the dependence on <code>k</code> can be arbitrary, making analysis against
+	unbounded <code>k</code> in general impossible.)
+	</p>
+
+    <p>
+    We now analyze the system design for increasing values of <code>k</code>. Due
+    to monotonicity of O, consecutive observation sets  <code>O(k)</code> are in
+    some sort of <code>≤</code> relationship. This begs the question whether the
+    function <code>O</code> converges at some parameter point k0, i.e. whether it
+    stops increasing after reaching <code>k0</code>. If so, the truth value of
+    property <code>P</code> has stabilized, i.e. unless we have detected a
+    violation of <code>P</code> up to this point, we have proved the property for
+    all parameter instances. 
     </p>
     </div>
     <hr>

@@ -25,7 +25,7 @@ table
  	</tr>
 	<tr>
 	<td align="center">
- 	<img src="img/thomas_2.jpg" width="180" alt="Thomas" class="circle">
+ 	<img src="img/thomas.jpg" width="180" alt="Thomas" class="circle">
  	</td>
 	<td align="center">
  	</td>
@@ -61,7 +61,7 @@ table
  	</tr>
 	<tr>
 	<td align="center">
- 		<img src="img/ppl.png" width="180" alt="Andrew Johnson" class="circle">
+ 		<img src="img/andrewj.jpg" width="180" alt="Andrew Johnson" class="circle">
  	</td>
 	<td align="center">
  		<img src="img/ppl.png" width="180" alt="Andrew Dai" class="circle">

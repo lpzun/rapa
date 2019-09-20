@@ -32,10 +32,9 @@ permalink: /apps/quba-download/
     <div class="row" align="center">
         <div class="column" align="center">
             <p><i>Source code tree (shown in Visual Studio 2017)</i></p>
-            <img src="src-1.jpg" alt="source code" />
+            <img src="../img/src.jpg" alt="source code" />
         </div>
     </div>
-
     <h4>1.2 Check out the entire code base from GitHub</h4>
     <p>
         Use the following command to check out the entire code of P:
@@ -58,7 +57,6 @@ permalink: /apps/quba-download/
         <b><i>Warning:</i></b>
         It will take some efforts to successfully install P. This is not required to reproduce our results; you can rely on the binaries instead.
     </p>
-
     <h4>2.2 Use the binaries</h4>
     <p>
         Open a command line and run the following commands, for testing executability.
