@@ -79,18 +79,18 @@ layout: default
 	</p>
     <p>
     In general, we require of function <code>O</code> that it be <b>monotone</b>: more
-    resources means more system behaviors (observations). This is
+    resources means more system behaviors (<b>observations</b>). This is
     almost always the case provided the value of <code>k</code> is not accessible
     in the program defining a system instance's behavior. (If it is,
     the dependence on <code>k</code> can be arbitrary, making analysis against
-	unbounded <code>k</code> in general impossible.)
+	<b>unbounded</b> <code>k</code> in general impossible.)
 	</p>
 
     <p>
     We now analyze the system design for increasing values of <code>k</code>. Due
-    to monotonicity of O, consecutive observation sets  <code>O(k)</code> are in
+    to <b>monotonicity</b> of <code>O</code>, consecutive observation sets  <code>O(k)</code> are in
     some sort of <code>≤</code> relationship. This begs the question whether the
-    function <code>O</code> converges at some parameter point k0, i.e. whether it
+    function <code>O</code> <b>converges</b> at some parameter point <code>k0</code>, i.e. whether it
     stops increasing after reaching <code>k0</code>. If so, the truth value of
     property <code>P</code> has stabilized, i.e. unless we have detected a
     violation of <code>P</code> up to this point, we have proved the property for
