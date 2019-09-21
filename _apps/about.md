@@ -1,5 +1,5 @@
 ---
 title: About
 permalink: /apps/about/
-redirect_to: /apps/index.html
+redirect_from: /apps/
 ---
