@@ -1,5 +1,5 @@
 ---
 title: About
 permalink: /apps/about/
-redirect_to: /apps/
+redirect_to: https://github.com/lpzun/rapa/apps/
 ---
