@@ -1,7 +1,6 @@
 ---
 title: About
 permalink: /apps/
-redirect_from: /apps/index.html
 ---
 
 We have applied the <b>Observation Sequence paradigm</b> to the undecidable problem of analyzing reachability for concurrent procedures communicating via global-scope variables [PLDI 2018](https://conf.researchr.org/home/pldi-2018). Our technique is dubbed CUBA (Context-UnBounded Analysis).
