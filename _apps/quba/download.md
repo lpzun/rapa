@@ -4,6 +4,7 @@ permalink: /apps/quba-download/
 ---
 <html>
 <body>
+    <h5>Please download the artifact here: <a href="../artifact.zip" download="artifact.zip">artifact.zip</a></h5>
 <h3>We include</h3>
 <div id="tool">
     <ul>

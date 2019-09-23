@@ -11,6 +11,6 @@
 - title: QUBA
   apps:
   - quba-download
-  - quba-tutorial
   - quba-documentation
+  - quba-tutorial
   - quba-experiment
