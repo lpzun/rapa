@@ -64,15 +64,15 @@ table
  		<img src="img/andrewj.jpg" width="180" alt="Andrew Johnson" class="circle">
  	</td>
 	<td align="center">
- 		<img src="img/ppl.png" width="180" alt="Andrew Dai" class="circle">
+ 		<img src="img/andrewd.jpg" width="180" alt="Andrew Dai" class="circle">
  	</td>
  	</tr>
  	<tr>
  		<td align="center">
- 			<a href="">Andrew Johnson</a>
+ 			Andrew Johnson
  		</td>
  		<td align="center">
- 			<a href="">Andrew Dai</a>
+ 			Andrew Dai
  		</td>
  	</tr>
 </table>
