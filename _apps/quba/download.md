@@ -1,6 +1,6 @@
 ---
 title: Getting QUBA
-permalink: /apps/quba-download/
+permalink: /apps/quba/
 ---
 <html>
 <body>

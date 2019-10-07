@@ -3,14 +3,14 @@
     - about
 - title: CUBA
   apps:
-  - cuba-download
+  - cuba
   - cuba-tutorial
   - cuba-input
   - cuba-benchmark
 
 - title: QUBA
   apps:
-  - quba-download
+  - quba
   - quba-documentation
   - quba-tutorial
   - quba-experiment

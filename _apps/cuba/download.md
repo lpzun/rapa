@@ -1,6 +1,6 @@
 ---
 title: Getting CUBA
-permalink: /apps/cuba-download/
+permalink: /apps/cuba/
 ---
 <html>
   <body>
